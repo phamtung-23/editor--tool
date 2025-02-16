@@ -25,3 +25,30 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.FIE_image-tool-button {
+  display: none !important;
+}
+
+.FIE_polygon-tool-button {
+  display: none !important;
+}
+
+.pdf-container {
+  background: #f0f0f0;
+  min-height: 100vh;
+}
+
+.toolbar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: white;
+  border-bottom: 1px solid #ddd;
+}
+
+.bookmark-sidebar {
+  border-right: 1px solid #ddd;
+  resize: horizontal;
+  overflow: auto;
+}
